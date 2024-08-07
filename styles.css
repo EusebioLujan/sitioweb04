@@ -16,4 +16,15 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+
+    display: inline-block;
+    transition: transform 0.5s ease;
+}
+
+.image:hover{
+    content: url(image.png);
+}
+
+.link-button:hover{
+    transform: rotate(720deg);
 }
