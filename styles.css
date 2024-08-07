@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 165);
+    margin: 0 10%;
 }
 
 .image{
@@ -16,9 +17,25 @@ body {
     padding: 5px;
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
+  display: inline-block;
+    transition: transform 0.5s ease;
 }
 
 .container {
     display: flex;
     justify-content: center;
 }
+
+.image:hover{
+    content: url(image.png);
+}
+
+.link-button:hover{
+    transform: rotate(720deg);
+}
+h1,h2{
+    text-align: center;
+    font-family: 'Arial, sans-serif';
+    font-size: 2.5rem;
+}
+
